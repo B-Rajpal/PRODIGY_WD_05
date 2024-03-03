@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    }
+    body {
+      overflow: hidden;
+      scrollbar-width: none; /* For Firefox */
+      -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+    }
+    
+    /* Hide scrollbar for webkit browsers */
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    body{
+background: url('https://t3.ftcdn.net/jpg/02/11/52/42/360_F_211524227_Ett8aboQvVnROAFtqu3S1pW99Y3Th9vm.jpg');
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    }
+    
+    .heading{
+   font-size: 60px;
+    text-align: center;
+    margin-top: 15px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    input {
+     padding: 10px;
+    border-radius: 25px;
+     border: 4px solid black;
+  background-color: #fff;
+    font-family: Times;
+  width: 300px;
+    height: 40px;
+  font-size: 20px;
+     margin-left: 600px;
+    }
+    .weather {
+    text-align: center;
+     font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    background-size: cover;
+ background-repeat: no-repeat;
+   width: 600px;
+    height: 400px;
+    border-radius: 60px;
+margin-top: 60px;
+    margin-left: 460px;
+    }
